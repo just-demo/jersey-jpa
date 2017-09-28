@@ -1,0 +1,12 @@
+1) mvn jetty:run
+2) http://localhost:8080/rest/users
+
+GET http://localhost:8080/rest/users
+
+POST http://localhost:8080/rest/users
+{"name": "test"}
+
+PUT http://localhost:8080/rest/users/1
+{"name": "test"}
+
+DELETE http://localhost:8080/rest/users/1
